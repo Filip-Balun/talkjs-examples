@@ -18,10 +18,7 @@ We are going to build a chat that looks like the one you see when you visit the 
 
 ## Setting up our chat
 
-To set up our chat we will follow the [Getting Started](https://talkjs.com/docs/Getting_Started/) instructions in the Docs. This gives us a working inbox which we can then customize. Remember to use your TalkJS **appId**, this is found in the [dashboard](https://talkjs.com/dashboard). Without the TalkJS **appId** the chat will not load. 
-
-### Overview
-If you are new to TalkJS this section quickly goes over what we've done so far.
+To set up our chat, we will follow the [Getting Started](https://talkjs.com/docs/Getting_Started/) guide from the Docs. This gives us a working inbox which we can then customize. Remember to use your TalkJS **appId** you can find in the [dashboard](https://talkjs.com/dashboard). Without the **appId** the chat will not load. 
 
 First we embed the script for the TalkJS API in our app. This loads the TalkJS API from the CDN. We also specify a div where the chatbox will be rendered once it's fetched from the CDN.
 
@@ -41,7 +38,7 @@ After following these steps our chatbox should look as below:
 
 ## Adding Features
 
-To give our customer support a more human feel we want to add a profile picture to our user. To do this we include a `photoUrl` property in the User Object, which is a link to the profile picture. If nothing is specified here, by default it displays the initials of the user.
+To give our customer support chat a more human feel we want to add a profile picture to our user. To do this we include a `photoUrl` property in the User Object, which is a link to the profile picture. If nothing is specified here, by default it displays the initials of the user.
 
 We can edit our code to this:
 
@@ -139,11 +136,11 @@ Our customer facing chat UI is now a popup that looks as shown below:
 ![chatPopup](images/popup.png)
 
 ## Styling
-TalkJS comes with a very flexible and highly configurable UI and it is up to the developer to tweak around in the Theme Editor to get a particular look. The Theme Editor allows editing using CSS. By targeting relevant  CSS classes, it is fast and easy to make edits in our layouts.
+TalkJS comes with a very flexible and highly configurable UI and it is up to the developer to tweak around in the Theme Editor to get a particular look. The Theme Editor allows editing using CSS. By targeting relevant CSS classes, it is easy to make edits in our layouts.
 
 In this tutorial we will only apply minimal styling just to show what is possible.
 
-In our TalkJS dashboard we navigate to Theme Editor and to the ChatHeader Component. 
+In our TalkJS dashboard we navigate to Theme Editor and to the ChatHeader Component.
 
 ### The `ChatHeader` Component
 
